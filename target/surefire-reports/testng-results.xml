@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2019-11-12T15:28:19Z" finished-at="2019-11-12T15:28:19Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="NinjaStoreSuite" duration-ms="86013" started-at="2019-11-12T15:25:59Z" finished-at="2019-11-12T15:27:25Z">
+    <groups>
+    </groups>
+    <test name="VerifyProductAndCartTest" duration-ms="86013" started-at="2019-11-12T15:25:59Z" finished-at="2019-11-12T15:27:25Z">
+      <class name="com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="baseSetup" is-config="true" duration-ms="14905" started-at="2019-11-12T15:25:59Z" finished-at="2019-11-12T15:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="webURLLoader()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="webURLLoader" is-config="true" duration-ms="3948" started-at="2019-11-12T15:26:14Z" finished-at="2019-11-12T15:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webURLLoader -->
+        <test-method status="PASS" signature="verifyNinjaStore()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="verifyNinjaStore" duration-ms="66504" started-at="2019-11-12T15:26:18Z" finished-at="2019-11-12T15:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaStore -->
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="endDriver" is-config="true" duration-ms="560" started-at="2019-11-12T15:27:24Z" finished-at="2019-11-12T15:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore -->
+    </test> <!-- VerifyProductAndCartTest -->
+  </suite> <!-- NinjaStoreSuite -->
+  <suite name="HeatClinicSuite" duration-ms="53149" started-at="2019-11-12T15:27:25Z" finished-at="2019-11-12T15:28:18Z">
+    <groups>
+    </groups>
+    <test name="VerifyCartTest" duration-ms="53149" started-at="2019-11-12T15:27:25Z" finished-at="2019-11-12T15:28:18Z">
+      <class name="com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="baseSetup" is-config="true" duration-ms="13224" started-at="2019-11-12T15:27:25Z" finished-at="2019-11-12T15:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="webURLLoader()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="webURLLoader" is-config="true" duration-ms="1838" started-at="2019-11-12T15:27:38Z" finished-at="2019-11-12T15:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webURLLoader -->
+        <test-method status="PASS" signature="verifyHeatClinic()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="verifyHeatClinic" duration-ms="37530" started-at="2019-11-12T15:27:40Z" finished-at="2019-11-12T15:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeatClinic -->
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="endDriver" is-config="true" duration-ms="553" started-at="2019-11-12T15:28:18Z" finished-at="2019-11-12T15:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic -->
+    </test> <!-- VerifyCartTest -->
+  </suite> <!-- HeatClinicSuite -->
+</testng-results>
